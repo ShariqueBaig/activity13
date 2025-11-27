@@ -47,6 +47,7 @@ npm run deploy
 ```
 
 This will:
+
 - Build your project
 - Push to gh-pages branch
 - Make it live!
@@ -68,6 +69,7 @@ This will:
 ## Step 7: Get Your Live URL
 
 After a few minutes, your site will be live at:
+
 ```
 https://YOUR_USERNAME.github.io/meltdown-report/
 ```
