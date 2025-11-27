@@ -593,7 +593,7 @@ for (int i = 0; i < 256; i++) {
                   </p>
                 </div>
                 <a
-                  href="/meltdown-report/Meltdown_Report.pdf"
+                  href="/activity13/Meltdown_Report.pdf"
                   download="Meltdown_Report_Sharique_Maira.pdf"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-colors"
                 >
@@ -607,7 +607,7 @@ for (int i = 0; i < 256; i++) {
               {/* PDF Viewer */}
               <div className="bg-gray-100 rounded-lg overflow-hidden" style={{ height: '80vh' }}>
                 <iframe
-                  src="/meltdown-report/Meltdown_Report.pdf"
+                  src="/activity13/Meltdown_Report.pdf"
                   className="w-full h-full"
                   title="Meltdown Report PDF"
                   style={{ border: 'none' }}
@@ -622,7 +622,7 @@ for (int i = 0; i < 256; i++) {
                   <ul className="list-disc pl-6 space-y-1">
                     <li>
                       <a 
-                        href="/meltdown-report/Meltdown_Report.pdf" 
+                        href="/activity13/Meltdown_Report.pdf" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:underline font-medium"
@@ -632,7 +632,7 @@ for (int i = 0; i < 256; i++) {
                     </li>
                     <li>
                       <a 
-                        href="/meltdown-report/Meltdown_Report.pdf" 
+                        href="/activity13/Meltdown_Report.pdf" 
                         download="Meltdown_Report_Sharique_Maira.pdf"
                         className="text-blue-600 hover:underline font-medium"
                       >
@@ -658,10 +658,10 @@ for (int i = 0; i < 256; i++) {
                 <div className="aspect-video bg-gray-800 rounded-lg overflow-hidden">
                   {/* Option 1: Local video file (place your video in public/videos/ folder) */}
                   {/* Uncomment the video tag below and comment out the placeholder */}
-                  { <video controls className="w-full h-full">
-                    <source src="/meltdown-report/videos/demo.mp4" type="video/mp4" />
+                  {/* <video controls className="w-full h-full">
+                    <source src="/activity13/videos/demo.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
-                  </video> }
+                  </video> */}
                   
                   {/* Option 2: YouTube video (replace VIDEO_ID with your YouTube video ID) */}
                   {/* <iframe 
