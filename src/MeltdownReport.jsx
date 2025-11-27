@@ -656,35 +656,10 @@ for (int i = 0; i < 256; i++) {
               
               <div className="bg-gray-900 rounded-lg p-8 mb-6">
                 <div className="aspect-video bg-gray-800 rounded-lg overflow-hidden">
-                  {/* Option 1: Local video file (place your video in public/videos/ folder) */}
-                  {/* Uncomment the video tag below and comment out the placeholder */}
-                  {/* <video controls className="w-full h-full">
+                  <video controls className="w-full h-full">
                     <source src="/activity13/videos/demo.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
-                  </video> */}
-                  
-                  {/* Option 2: YouTube video (replace VIDEO_ID with your YouTube video ID) */}
-                  {/* <iframe 
-                    width="100%" 
-                    height="100%" 
-                    src="https://www.youtube.com/embed/VIDEO_ID"
-                    title="Meltdown Attack Demonstration"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe> */}
-                  
-                  {/* Placeholder - Remove this when you add your video */}
-                  <div className="flex items-center justify-center h-full">
-                    <div className="text-center text-gray-400">
-                      <Video className="w-16 h-16 mx-auto mb-4 opacity-50" />
-                      <p className="text-lg">Video demonstration placeholder</p>
-                      <p className="text-sm mt-2">Place your video file in: <code className="bg-gray-700 px-2 py-1 rounded">public/videos/demo.mp4</code></p>
-                      <p className="text-xs mt-4 text-gray-500">
-                        Or use YouTube embed (see code comments)
-                      </p>
-                    </div>
-                  </div>
+                  </video>
                 </div>
               </div>
 
